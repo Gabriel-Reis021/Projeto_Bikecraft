@@ -1,5 +1,20 @@
-@import "/css/header.css";
-@import "/css/introducao.css";
-@import "/css/global.css";
+@import url(/css/global/global.css);
+@import url(/css/global/header.css);
+@import url(/css/global/footer.css);
+
+/* --------------- Home ------------- */
+
+@import url(/css/home/introducao.css);
+@import url(/css/home/tecnologia.css);
+@import url(/css/home/parceiros.css);
+@import url(/css/home/depoimento.css);
+/* -------------- Utilidades--------------*/
+
+@import url(/css/utilidades/componentes.css);
+@import url(/css/utilidades/tipografia.css);
+@import url(/css/utilidades/cores.css);
+@import url(/css/bicicletas/bicicletas-listas.css);
 
 
+/* -------------- Utilidades--------------*/
+@import url(/css/seguros/seguros.css);
