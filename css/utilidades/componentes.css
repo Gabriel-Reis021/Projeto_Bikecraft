@@ -34,6 +34,26 @@
     background: var(--var-9);
 
 }
+<<<<<<< HEAD
+=======
+.botao.seta{
+    display: flex ;
+    align-items: center;
+}
+.botao.seta::after{
+    content:"";
+    display: inline-block;
+    width: 18px;
+    height: 10px;
+    margin-left: 12px;
+    background: url("../../img/icones/seta.svg");
+    transition: ease-in-out 200ms;
+
+}
+.botao.seta:hover::after{
+    transform: translateX(4px);
+}
+>>>>>>> 442f184 (dando continuidade no projeto)
 .link{
 
     display:  inline-block;
@@ -58,7 +78,37 @@
    
 }
 
+<<<<<<< HEAD
 
+=======
+/*titulo internas*/
+
+.titulo-bg{
+    background-color:var(--cor-11);
+    padding-bottom:60px;
+    padding-top: 60px;
+    
+
+}
+.titulo p{
+    margin-bottom: 4px;
+}
+
+@media(max-width:800px){
+    .titulo-bg{
+        padding-bottom: 40px;
+        padding-top:40px;
+    }
+    .titulo p{
+        font-size: 1rem;
+        text-transform: lowercase;
+        font-weight: 400;
+    }
+
+}
+
+/*------------*/
+>>>>>>> 442f184 (dando continuidade no projeto)
 @media (max-width:600px){
 
     .botao{
