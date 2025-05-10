@@ -16,15 +16,14 @@
 @import url(/css/bicicletas/bicicletas-listas.css);
 
 
-/* -------------- Utilidades--------------*/
-<<<<<<< HEAD
-@import url(/css/seguros/seguros.css);
-=======
+/* -------------- Seguros--------------*/
+@import url(/css/seguros/perguntas.css);
+@import url(/css/seguros/vantagens.css);
 @import url(/css/seguros/seguros.css);
 
 /* --------------Termos--------------*/
 @import url(/css/termos/termos.css);
 
 /* --------------Bicicletas--------------*/
-@import url(/css/bicicletas/bicicletas.css
->>>>>>> 442f184 (dando continuidade no projeto)
+@import url(/css/bicicletas/bicicletas.css);
+@import url(/css/bicicletas/bicicletas-listas.css);

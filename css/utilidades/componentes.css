@@ -34,8 +34,6 @@
     background: var(--var-9);
 
 }
-<<<<<<< HEAD
-=======
 .botao.seta{
     display: flex ;
     align-items: center;
@@ -53,7 +51,6 @@
 .botao.seta:hover::after{
     transform: translateX(4px);
 }
->>>>>>> 442f184 (dando continuidade no projeto)
 .link{
 
     display:  inline-block;
@@ -78,9 +75,6 @@
    
 }
 
-<<<<<<< HEAD
-
-=======
 /*titulo internas*/
 
 .titulo-bg{
@@ -108,7 +102,6 @@
 }
 
 /*------------*/
->>>>>>> 442f184 (dando continuidade no projeto)
 @media (max-width:600px){
 
     .botao{
