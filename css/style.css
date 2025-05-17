@@ -26,7 +26,11 @@
 
 /* --------------Pasta Bicicleta--------------*/
 @import url(./bicicleta/bicicleta.css);
+@import url(./bicicleta/seguro.css);
 
 /* --------------Bicicletas--------------*/
 @import url(/css/bicicletas/bicicletas.css);
 @import url(/css/bicicletas/bicicletas-listas.css);
+
+
+/* --------------Contato--------------*/
