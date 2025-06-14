@@ -29,10 +29,7 @@ p{
 }
 img{
     max-width: 100%;
-<<<<<<< HEAD
-=======
     height: auto;
->>>>>>> fe89713a5780b431a60c5f88818f86fbd3d7b4fa
     display: block;
 }
 img[src$=".jpg"]{
