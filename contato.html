@@ -15,6 +15,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Contato Bikcraft | Bikcraft </title>
     <meta name="description" content="Termos e condições.">
+    <script>
+      document.documentElement.classList.add('js')
+    </script>
   </head>
   <body id="contato">
     <header class="header-bg">
@@ -35,17 +38,17 @@
     <main>
         <div class="titulo-bg">
             <div class="titulo container">
-                <p class="font-2-l-b cor-5">Respostas em taé 24h</p>
-                <h1 class="font-1-xxl cor-0">Nosso contato<span class="cor-pa1">.</span></h1>
+                <p class="font-2-l-b cor-5" data-anime="200">Respostas em até 24h</p>
+                <h1 class="font-1-xxl cor-0" data-anime="400">Nosso contato<span class="cor-pa1">.</span></h1>
             </div>
 
         </div>
 
      <div class="contato container">
-      <section class="contato-dados" aria-label="Endereço">
+      <section class="contato-dados fadeInLeft" aria-label="Endereço" data-anime="200">
         <h2 class="font-1-m cor-0"> Loja Online</h2>
         <div class="contato-endereco font-2-s cor-4">
-          <p>Rua Bagdad, 306</p>
+          <p>Rua Ali Perto, 25</p>
           <p>Rio de Janeiro - RJ</p>
           <p>Brasil</p>
         </div>
@@ -70,7 +73,7 @@
         </div>
       </section>
 
-      <section class="contato-formulario" aria-label="formulario">
+      <section class="contato-formulario fadeInRight" aria-label="formulario" data-anime="200">
         <form class="form" action="./contato.html">
           <div>
             <label for="nome">Nome</label>
@@ -150,7 +153,7 @@
             <ul class="font-2m cor-5">
               <li><a href="tel:+55 21 97421-4951">+55 21 97421-4951</a></li>
               <li><a href="mailto:gabrielreissantos180@gmail.com">gabrielreissantos180@gmail.com</a></li>
-              <li>Rua Bagdad, 306 - Honório Gurgel</li>
+              <li>Rua Ali Perto, 25</li>
               <li>Rio de Janeiro -RJ</li>
             </ul>
             <div class="footer-redes">
@@ -184,6 +187,7 @@
         </div>
   
       </footer>
+        <script src="plugins/simple-anime.js"></script>
         <script src="./js/script.js"></script>
   </body>
   </html>

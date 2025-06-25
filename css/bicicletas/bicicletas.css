@@ -20,6 +20,7 @@
 
 .bicicletas-imagem img{
     grid-area: 1/1;
+ 
 }
 .bicicletas-imagem span{
     border-radius: 5px 0px 0px 5px;
@@ -37,6 +38,7 @@
     display: grid;
     grid-template-columns: 1fr auto;
     align-content: start;
+    
 
 }
 

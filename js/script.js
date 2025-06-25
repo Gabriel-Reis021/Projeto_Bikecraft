@@ -12,6 +12,7 @@ function ativarLink(link) {
 
 links.forEach(ativarLink);
 
+
 // Ativar Items do orçamento
 
 const urlParams = new URLSearchParams(location.search);
@@ -30,6 +31,7 @@ function ativarProduto(parametro){
 }
 
 urlParams.forEach(ativarProduto);
+
 
 //Perguntas Frequentes
 
@@ -91,3 +93,4 @@ if(window.SimpleAnime){
     new SimpleAnime();
 
 }
+
