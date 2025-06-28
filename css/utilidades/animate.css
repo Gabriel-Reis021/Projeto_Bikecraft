@@ -19,3 +19,11 @@
   transform: none;
   transition: transform 0.8s, opacity 0.8s;
 }
+@media(max-width:800px){
+  .js  .fadeInLeft {
+    transform: none;
+  }
+  .js  .fadeInRight {
+    transform: none;
+  }
+}
